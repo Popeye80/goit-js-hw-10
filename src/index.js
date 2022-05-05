@@ -12,7 +12,7 @@ const refs = {
     div: document.querySelector('.country-info'),
 };
 
-refs.input.addEventListener('keydown', debounce(onKeydown,DEBOUNCE_DELAY) )
+refs.input.addEventListener('keydown', debounce(onKeydown, DEBOUNCE_DELAY));
 
 function onKeydown(evt) {    
     const countryName = evt.target.value.trim();

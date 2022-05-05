@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Popeye80/goit-js-hw-10/issues"
   },
-  "homepage": "https://github.com/Popeye80/goit-js-hw-10#readme",
+  "homepage": "https://github.com/Popeye80/goit-js-hw-10",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
   },
