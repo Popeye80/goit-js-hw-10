@@ -14,14 +14,14 @@ const refs = {
 
 refs.input.addEventListener('keydown', debounce(onKeydown,DEBOUNCE_DELAY) )
 
-function onKeydown(e) {    
-    const countriName = e.target.value.trim();
+function onKeydown(evt) {    
+    const countryName = evt.target.value.trim();
 
-    if (countriName === '') {
+    if (countryName === '') {
         return;
     }
 
-    fetchCountries(countriName)
+    fetchCountries(countryName)
         .then(countries => {
             clearCountriesInDOM();
 
