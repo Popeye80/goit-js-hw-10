@@ -10,7 +10,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
-}
+  }
 
 #search-box {
   font: inherit;
@@ -20,15 +20,12 @@ body {
 }
 
 ul {
-  list-style-type: none;
-  padding-inline-start: 10px;
-}
+  list-style: none;
+  padding: 0;
+   }
 
 li {
-  font-weight: 700;
+  font-weight: 500;
   margin-top: 10px;
 }
 
-.country-info {
-  padding-left: 10px;
-}
