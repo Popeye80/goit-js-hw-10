@@ -222,7 +222,7 @@ var generatingOneCountryInDom = function generatingOneCountryInDom(country) {
   var languages = country.languages.map(function (language) {
     return language.name;
   }).join('');
-  return "<h2><img src=\"".concat(country.flags.svg, "\" alt=\"").concat(country.name, "\" width = 40px class=\"country-flag\"> ").concat(country.name, "</h2> \n          <p><b>Capital:</b> ").concat(country.capital, "</p>\n          <p><b>Population:</b> ").concat(country.population, "</p>\n          <p><b>Languages:</b> ").concat(languages, "</p>");
+  return "<h2><img src=\"".concat(country.flags.svg, "\" alt=\"").concat(country.name, "\" width = 30px class=\"country-flag\"> ").concat(country.name, "</h2> \n          <p><b>Capital:</b> ").concat(country.capital, "</p>\n          <p><b>Population:</b> ").concat(country.population, "</p>\n          <p><b>Languages:</b> ").concat(languages, "</p>");
 };
 
 exports.generatingOneCountryInDom = generatingOneCountryInDom;
@@ -234,7 +234,7 @@ var generatingSomeCountryInDom = function generatingSomeCountryInDom(countries) 
 exports.generatingSomeCountryInDom = generatingSomeCountryInDom;
 
 function generatingCountryHTML(country) {
-  return "<li><img src=\"".concat(country.flags.svg, "\" alt=\"").concat(country.name, "\" width = 40px class=\"country-flag \"> ").concat(country.name, "</li>");
+  return "<li><img src=\"".concat(country.flags.svg, "\" alt=\"").concat(country.name, "\" width = 30px class=\"country-flag \"> ").concat(country.name, "</li>");
 }
 },{}],"../node_modules/notiflix/build/notiflix-notify-aio.js":[function(require,module,exports) {
 var define;
@@ -1283,7 +1283,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62678" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51177" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
